@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #141414;
+            COLOR: white;
+        }
+        .contact-form {
+            width: 85%;
+            max-width: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50% );
+            padding: 30px 40px;   
+            box-sizing: border-box;
+            border-radius: 10px;
+            text-align: center; 
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .contact-form h2 {
+            margin-top: 0;
+            font-weight: 200;
+        }
+        .txtb {
+            border: 1px solid grey;
+            margin: 8px 0;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .txtb label {
+            display: block;
+            text-align: left;
+        }
+        .txtb input, .txtb textarea {
+            width: 100%;
+            border: 0;
+            background: none;
+            font-size: 18px;
+            margin-top: 6px; 
+            outline: none;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff793f;
+            padding: 15px 15px;
+            color: white;
+            border-radius: 10px;
+            border: 0;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class = "contact-form">
+        <h2>Contact Us</h2>
+        
+        <div class="txtb">
+            <label>First Name:</label>
+            <input type="text" placeholder="Enter your First Name"><br>
+        </div>
+
+        <div class="txtb">
+            <label>Last Name:</label>
+            <input type="text" placeholder="Enter your Last Name"><br>
+        </div>
+
+        <div class="txtb">
+            <label>Mobile:</label>
+            <input type="text" placeholder="Enter your mobile number"><br>
+        </div>
+
+        <div class="txtb">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email id"><br>
+        </div>
+
+        <div class="txtb">
+            <label>Message:</label>
+            <textarea placeholder="Enter your text here"></textarea><br>
+        </div>
+
+        <div>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

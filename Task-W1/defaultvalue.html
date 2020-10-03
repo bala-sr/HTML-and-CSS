@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #141414;
+            COLOR: white;
+        }
+        .ip {
+            width: 85%;
+            max-width: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50% );
+            padding: 30px 40px;   
+            box-sizing: border-box;
+            border-radius: 10px;
+            text-align: left; 
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: 1px solid white;
+        }
+        input[type=text], input[type=number], input[type=password] {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="ip">
+        <h2>Personal Details</h2>
+        <label>Name:</label>
+        <input type="text" value="John"> <br>
+        <label>Age:</label>
+        <input type="number" value=25> <br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" checked>Male
+        <input type="radio" name="gender" >Female <br>
+        <label>Favourite Sports:</label>
+        <input type="checkbox" name="favsports" checked>Cricket
+        <input type="checkbox" name="favsports" checked>Football
+        <input type="checkbox" name="favsports" checked>Tennis <br>
+        <label>Password</label>
+        <input type="password" name="" id="" value="abcd"> <br>
+        <label>Message:</label> <br>
+        <textarea name="" id="" cols="30" rows="10">Type your message here</textarea> <br>
+        <input type="submit">
+    </div>
+</body>
+</html>
